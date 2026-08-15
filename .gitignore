@@ -40,3 +40,7 @@ models/*.npy
 
 # Keep folder structure
 !.gitkeep
+
+# Personal face data
+data/faces/*
+!data/faces/.gitkeep
