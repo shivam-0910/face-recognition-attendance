@@ -1,4 +1,7 @@
 opencv-python
-# face-recognition
 numpy
 pandas
+dlib-bin==20.0.1
+face-recognition-models==0.3.0
+click
+pillow

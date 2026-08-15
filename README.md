@@ -96,9 +96,12 @@ face-recognition-attendance/
 
 **Status: Initial project setup**
 
+- Phase 1 — Face Detection: Implemented
+- Phase 2 — Face Encoding / Registration: Implemented
+- Phase 3 — Face Recognition: Implemented
+
 Implementation will be developed incrementally, feature by feature.
 
 ## Internship Context
 
 **Bright Hub Private Limited — Artificial Intelligence Internship — Project 3**
-# face-recognition-attendance
