@@ -99,6 +99,7 @@ face-recognition-attendance/
 - Phase 1 — Face Detection: Implemented
 - Phase 2 — Face Encoding / Registration: Implemented
 - Phase 3 — Face Recognition: Implemented
+- Phase 4 — Attendance Marking: Implemented
 
 Implementation will be developed incrementally, feature by feature.
 

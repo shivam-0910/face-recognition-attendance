@@ -17,6 +17,8 @@ import pickle
 import cv2
 import face_recognition
 
+from attendance import mark_attendance
+
 MODELS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "models")
 ENCODINGS_PATH = os.path.join(MODELS_DIR, "encodings.pkl")
 
@@ -136,6 +138,9 @@ def run_recognition():
         face_encodings = face_recognition.face_encodings(rgb_frame, known_face_locations=face_locations)
 
         names = [identify_face(encoding, known_data) for encoding in face_encodings]
+
+        for name in names:
+            mark_attendance(name)
 
         draw_recognition_results(frame, face_locations, names)
 
