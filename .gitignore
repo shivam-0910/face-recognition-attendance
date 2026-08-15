@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local SQLite database files
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Generated CSV attendance reports
+*.csv
+
+# Generated face encodings / model files
+models/*.pkl
+models/*.dat
+models/*.npy
+
+# Temporary files
+*.tmp
+*.log
+
+# Keep folder structure
+!.gitkeep
